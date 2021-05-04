@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: abeyu-test2
+  description: test
+  annotations: 
+    github.com/project-slug: abeyum/abeyu-test2
+    backstage.io/source-ref: "https://github.com/abeyum/abeyu-test2"
+    backstage.io/techdocs-ref: url:https://github.com/abeyum/abeyu-test2
+spec:
+  type: service
+  lifecycle: experimental
+  owner: abeyum
